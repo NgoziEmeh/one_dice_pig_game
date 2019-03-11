@@ -124,4 +124,5 @@ button {
   left: 50%;
   transform: translateX(-50%);
   color: #555;
+  background: none;
 }
