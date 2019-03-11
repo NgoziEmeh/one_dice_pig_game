@@ -107,4 +107,5 @@ player-current-box {
 }
 
 .player-current-label {
+  text-transform: uppercase;
 }
