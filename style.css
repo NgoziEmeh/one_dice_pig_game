@@ -4,5 +4,6 @@ GENERAL
 
 .win-score {
   position: absolute;
+  left: 50%;
 
 }
