@@ -18,3 +18,7 @@ GENERAL
 }
 
 .win-score:focus {outline: none;}
+
+* {
+  margin: 0;
+}
