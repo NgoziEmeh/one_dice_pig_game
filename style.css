@@ -58,7 +58,6 @@ body {
   float: left;
   height: 600px;
   padding: 100px;
-  top: -7px;
 
 }
 
@@ -93,6 +92,7 @@ PLAYERS
   font-size: 47px;
   position: absolute;
   color: darkblue;
+  top: -7px;
   right: 10px;
 
 }
