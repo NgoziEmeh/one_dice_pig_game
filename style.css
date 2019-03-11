@@ -6,5 +6,6 @@ GENERAL
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  top: 520px;
 
 }
