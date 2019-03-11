@@ -27,4 +27,5 @@ GENERAL
 
 .clearfix::after {
   content: "";
+  display: table;
 }
