@@ -101,4 +101,5 @@ player-current-box {
   background-color: darkblue;
   color: #fff;
   width: 40%;
+  margin: 0 auto;
 }
