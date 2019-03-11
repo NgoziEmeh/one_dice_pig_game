@@ -120,4 +120,5 @@ player-current-box {
 
 button {
   position: absolute;
+  width: 200px;
 }
