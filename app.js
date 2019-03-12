@@ -13,3 +13,4 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   
   //2. Diplay the generated number(dice value)
   var diceDom = document.querySelector('.dice');
+  diceDom.style.display = 'block';
