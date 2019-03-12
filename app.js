@@ -26,4 +26,5 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
       //Give to next player to play
       nextPlayer();
       
-}      
+  }      
+});
