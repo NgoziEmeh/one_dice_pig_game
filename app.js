@@ -49,4 +49,6 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     document.querySelector('.dice').style.display = 'none';
     
   }   
+  
+  //Declaring winner when main score is up to 250
     
