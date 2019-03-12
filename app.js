@@ -18,3 +18,4 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   
   //3. Showing score in Current score area
   if(dice !== 1){
+    //Add to roundscore
