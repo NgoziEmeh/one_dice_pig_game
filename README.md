@@ -1,7 +1,9 @@
 # one_dice_pig_game
 Simple pig game with one dice for two players.
 
-GAME RULES:
+
+
+RULES OF THE GAME :
 
 - The game has 2 players, playing in rounds
 - In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
