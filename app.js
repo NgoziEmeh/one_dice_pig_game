@@ -78,3 +78,5 @@ function init (){
   activePlayer = 0;
   
   document.querySelector('.dice').style.display = 'none';
+  
+  document.getElementById('score-0').textContent = 0;
