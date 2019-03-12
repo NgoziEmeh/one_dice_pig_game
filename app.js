@@ -33,3 +33,6 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 document.querySelector('.btn-hold').addEventListener('click', function(){
   //Add current score to main score
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer] += roundScore;
+  
+  //Give next player to play (fuction)
+  function nextPlayer (){
