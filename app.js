@@ -21,3 +21,5 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     //Add to roundscore
     roundScore += dice;
     document.querySelector('#current-' + activePlayer).textContent = roundScore;
+    
+    }else {
