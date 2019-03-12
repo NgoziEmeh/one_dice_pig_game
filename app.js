@@ -66,3 +66,5 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
 });  
     
 document.querySelector('.btn-new').addEventListener('click', function(){
+  
+  init();
