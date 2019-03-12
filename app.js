@@ -61,3 +61,5 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     //Next player's play turn
     nextPlayer();
     
+  }  
+    
