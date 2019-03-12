@@ -16,4 +16,4 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   diceDom.style.display = 'block';
   diceDom.src = 'dice-' + dice + '.png';
   
-  //3. show it in Roundscore area
+  //3. Showing score in Current score area
