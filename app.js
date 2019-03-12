@@ -73,3 +73,4 @@ document.querySelector('.btn-new').addEventListener('click', function(){
 
 //Function for restarting the game
 function init (){
+  scores = [0,0];
