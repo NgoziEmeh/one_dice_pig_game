@@ -70,3 +70,6 @@ document.querySelector('.btn-new').addEventListener('click', function(){
   init();
   
 });  
+
+//Function for restarting the game
+function init (){
