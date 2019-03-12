@@ -17,3 +17,4 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   diceDom.src = 'dice-' + dice + '.png';
   
   //3. Showing score in Current score area
+  if(dice !== 1){
