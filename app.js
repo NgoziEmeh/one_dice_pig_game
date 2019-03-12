@@ -52,4 +52,5 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
   
   //Declaring winner when main score is up to 250
   if (scores[activePlayer] >= 250){
+    document.querySelector('#name-' + activePlayer).textContent = 'Winner!!';
     
