@@ -10,3 +10,5 @@ init();
 document.querySelector('.btn-roll').addEventListener('click', function() {
   //1. Generate random number
   var dice = Math.floor(Math.random() * 6) + 1;
+  
+  //2. Diplay the generated number(dice value)
