@@ -23,7 +23,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     document.querySelector('#current-' + activePlayer).textContent = roundScore;
     
     }else {
-      //Give to next player to play
+      //Next player's play turn
       nextPlayer();
       
   }      
@@ -34,7 +34,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
   //Add current score to main score
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer] += roundScore;
   
-  //Give next player to play (fuction)
+  //Next player's play turn (fuction)
   function nextPlayer (){
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     
@@ -58,4 +58,6 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
     
   }else{  
+    //Next player's play turn
+    nextPlayer();
     
