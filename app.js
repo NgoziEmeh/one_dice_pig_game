@@ -18,8 +18,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   
   //3. Showing score in Current score area
   if(dice !== 1){
-    //Add to roundscore
+    //Add to Current score
     roundScore += dice;
     document.querySelector('#current-' + activePlayer).textContent = roundScore;
     
     }else {
+      //Give to next player to play
