@@ -15,3 +15,5 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   var diceDom = document.querySelector('.dice');
   diceDom.style.display = 'block';
   diceDom.src = 'dice-' + dice + '.png';
+  
+  //3. show it in Roundscore area
